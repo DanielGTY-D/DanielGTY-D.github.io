@@ -1,0 +1,8 @@
+.formulario__campos {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    padding: 0;
+}

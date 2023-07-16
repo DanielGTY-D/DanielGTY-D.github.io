@@ -1,0 +1,44 @@
+:root {
+    --colorPrimario: #ecc3b0;
+    --colorSecundario: #ca9775;
+    --colorTerciario: #97b98c;
+    --fontColor:  #464646; 
+    --btnColorPrincipal: #2A7AE4;
+
+    /* Tamaño de fuentes */
+    --fuentePrincipal: 'loto', sans-serif;
+
+    --ligth: 300;
+    --normal: 400;
+    --bold: 700:
+    --black: 900;
+}
+
+
+.txt-aling {
+    text-align: center;
+}
+
+.container {
+    width: 94%;
+    margin: 0 auto;
+}
+.btn-alert {
+    background-color: red;
+    color: #fff;
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    width: 100%;
+    text-align: center;
+}
+.enviado {
+    background-color:green;
+    color: #fff;
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    width: 100%;
+    text-align: center;
+}
+.hidden {
+    display: none;
+}

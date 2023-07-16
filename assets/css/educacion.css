@@ -1,0 +1,20 @@
+.educacion {
+    padding: 4rem 0;
+    border-bottom: 2px solid var(--btnColorPrincipal);
+}
+
+@media (min-width: 768px) {
+    .educacion {
+        display: grid;
+        grid: 1fr 1fr / 1fr 1fr;
+        gap: 4rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .educacion {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}

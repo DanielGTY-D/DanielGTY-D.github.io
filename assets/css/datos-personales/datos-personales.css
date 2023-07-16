@@ -1,0 +1,12 @@
+.datos-personales {
+    padding: 4rem 0;
+}
+
+@media (min-width: 768px) {
+    .datos-personales {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+}

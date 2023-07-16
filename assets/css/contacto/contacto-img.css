@@ -1,0 +1,8 @@
+@media (min-width: 1024px) {
+    .contacto__img {
+        background: url(../../img/telefono.png) no-repeat center / 65.4rem;
+
+        height: auto;
+        width: 40rem;
+    }
+}

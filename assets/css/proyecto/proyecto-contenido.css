@@ -1,0 +1,10 @@
+.proyecto__contenido {
+    border: 2px solid var(--btnColorPrincipal);
+    width: 100%;
+    height: 20rem;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

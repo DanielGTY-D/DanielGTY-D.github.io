@@ -1,0 +1,4 @@
+.navegacion__lista {
+    display: flex;
+    gap: 3rem;
+}

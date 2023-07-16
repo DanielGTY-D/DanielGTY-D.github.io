@@ -1,0 +1,14 @@
+
+@media (min-width: 768px) {
+    .proyectos {
+        display: grid;
+        grid: 1fr 1fr / 1fr 1fr;
+        gap: 4rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .proyectos {
+        display: flex;
+    }
+}

@@ -1,0 +1,21 @@
+.skills__lista {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    row-gap: 4rem;
+    
+}
+@media (min-width: 768px) {
+    .skills__lista {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (min-width: 1024px) {
+    .skills__lista {
+        display: flex;
+        justify-content: space-between;
+        padding: 3rem 0;
+    }
+}

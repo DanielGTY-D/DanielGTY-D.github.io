@@ -1,0 +1,18 @@
+.forma-contacto {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .forma-contacto {
+        width: 93%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .forma-contacto {
+        width: 70%;
+    }
+}

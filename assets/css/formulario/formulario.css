@@ -1,0 +1,15 @@
+.formulario {
+    border: 2px solid var(--btnColorPrincipal);
+    padding: 2rem;
+
+    width: 100%;
+    height: 50%;
+
+    background-color: #eff1fd;
+}
+
+@media (min-width: 1024px) {
+    .formulario {
+        border-left: none;
+    }
+}

@@ -1,0 +1,15 @@
+.hobbie__icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+.hobbie__icon.guitarra {
+    background: url(../../img/icons/guitar.svg) no-repeat center / 2.6rem;
+}
+
+.hobbie__icon.musica {
+    background: url(../../img/icons/headphones_black_24dp\ 1.svg) no-repeat center / 2.6rem;
+}
+.hobbie__icon.cocina {
+    background: url(../../img/icons/cocinar.svg) no-repeat center / 3rem;
+}

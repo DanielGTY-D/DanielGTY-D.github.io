@@ -1,0 +1,15 @@
+.formacion {
+    margin-bottom: 4rem;
+}
+@media (min-width: 768px) {
+    .formacion {
+        margin: 0;
+        height: 39rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .formacion {
+        width: 30%;
+    }
+}

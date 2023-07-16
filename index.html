@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollo Front-End</title>
+    <!-- reset -->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,900;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- estyles -->
+    <link rel="stylesheet" href="assets/css/titulo.css">
+
+    <!-- spiner -->
+    <link rel="stylesheet" href="assets/css/spinner.css">
+
+    <!-- header estilos -->
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/header/header.css">
+    <link rel="stylesheet" href="assets/css/header/header-titulo.css">
+    <link rel="stylesheet" href="assets/css/header/header-contacto.css">
+    <link rel="stylesheet" href="assets/css/header/header-navegacion.css">
+    <!-- navegacion estilos -->
+    <link rel="stylesheet" href="assets/css/navegacion/navegacion.css">
+    <link rel="stylesheet" href="assets/css/navegacion/navegacion-lista.css">
+    <link rel="stylesheet" href="assets/css/navegacion/navegacion-items.css">
+    <link rel="stylesheet" href="assets/css/navegacion/navegacion-links.css">
+
+    <!-- datos-personales estilos -->
+    <link rel="stylesheet" href="assets/css/datos-personales/datos-personales.css">
+    <link rel="stylesheet" href="assets/css/datos-personales/datos-personales-img.css">
+    <link rel="stylesheet" href="assets/css/datos-personales/datos-personales-informacion.css">
+    <link rel="stylesheet" href="assets/css/datos-personales/datos-personales-titulo.css">
+    <link rel="stylesheet" href="assets/css/datos-personales/datos-personales-descripcion.css">
+    <link rel="stylesheet" href="assets/css/datos-personales/datos-personales-container.css">
+
+    <!-- forma-contacto estilos -->
+    <link rel="stylesheet" href="assets/css/forma-contacto/forma-contacto.css">
+    <link rel="stylesheet" href="assets/css/forma-contacto/forma-contacto-item.css">
+    <link rel="stylesheet" href="assets/css/forma-contacto/forma-contacto-link.css">
+
+    <!-- historia estilos -->
+    <link rel="stylesheet" href="assets/css/historia/historia.css">
+    <link rel="stylesheet" href="assets/css/historia/historia-titulo.css">
+    <link rel="stylesheet" href="assets/css/historia/historia-informacion.css">
+    <link rel="stylesheet" href="assets/css/historia/historia-firma.css">
+
+    <!-- skills estilos -->
+    <link rel="stylesheet" href="assets/css/skills/skills.css">
+    <link rel="stylesheet" href="assets/css/skills/skills-lista.css">
+
+    <!-- skill estilos -->
+    <link rel="stylesheet" href="assets/css/skill/skill.css">
+    <link rel="stylesheet" href="assets/css/skill/skill-texto.css">
+    <link rel="stylesheet" href="assets/css/skill/skill-icon.css">
+
+    <!-- hobbie estilos -->
+    <link rel="stylesheet" href="assets/css/hobbie/hobbie.css">
+    <link rel="stylesheet" href="assets/css/hobbie/hobbie-lista.css">
+    <link rel="stylesheet" href="assets/css/hobbie/hobbie-icon.css">
+    <link rel="stylesheet" href="assets/css/hobbie/hobbie-texto.css">
+
+    <!-- educacion estilos -->
+    <link rel="stylesheet" href="assets/css/educacion.css">
+
+    <!-- formacion estilos -->
+    <link rel="stylesheet" href="assets/css/formacion/formacion.css">
+    <link rel="stylesheet" href="assets/css/formacion/formacion-img.css">
+    <link rel="stylesheet" href="assets/css/formacion/formacion-titulo.css">
+    <link rel="stylesheet" href="assets/css/formacion/formacion-informacion.css">
+    <link rel="stylesheet" href="assets/css/formacion/formacion-descripcion.css">
+
+    <!-- estilos proyectos -->
+    <link rel="stylesheet" href="assets/css/proyectos.css">
+
+    <!-- proyecto estilos -->
+    <link rel="stylesheet" href="assets/css/proyecto/proyecto.css">
+    <link rel="stylesheet" href="assets/css/proyecto/proyecto-img.css">
+    <link rel="stylesheet" href="assets/css/proyecto/proyecto-contenido.css">
+    <link rel="stylesheet" href="assets/css/proyecto/proyecto-titulo.css">
+    <link rel="stylesheet" href="assets/css/proyecto/proyecto-descripcion.css">
+    <link rel="stylesheet" href="assets/css/proyecto/proyecto-botones.css">
+    <link rel="stylesheet" href="assets/css/proyecto/proyecto-boton.css">
+
+    <!-- contacto estilos -->
+    <link rel="stylesheet" href="assets/css/contacto/contacto.css">
+    <link rel="stylesheet" href="assets/css/contacto/contacto-img.css">
+
+    <!-- formulario estilos -->
+    <link rel="stylesheet" href="assets/css/formulario/formulario.css">
+    <link rel="stylesheet" href="assets/css/formulario/formulario-titulo.css">
+    <link rel="stylesheet" href="assets/css/formulario/formulario-descripcion.css">
+    <link rel="stylesheet" href="assets/css/formulario/formulario-campos.css">
+    <link rel="stylesheet" href="assets/css/formulario/formulario-boton.css">
+
+    <!-- campo estilos -->
+    <link rel="stylesheet" href="assets/css/campo/campo.css">
+    <link rel="stylesheet" href="assets/css/campo/campo-label.css">
+    <link rel="stylesheet" href="assets/css/campo/campo-input.css">
+    <link rel="stylesheet" href="assets/css/campo/campo-textarea.css">
+
+    <!-- footer estilos -->
+    <link rel="stylesheet" href="assets/css/footer/footer.css">
+    <link rel="stylesheet" href="assets/css/footer/footer-descripcion.css">
+
+</head>
+
+<body>
+    <header class="">
+        <div class="container header">
+            <h2 class="header__titulo">Yael Torres</h2>
+
+            <div class="header__navegacion">
+                <nav class="navegacion">
+                    <ul class="navegacion__lista">
+                        <li class="navegacion__item"><a class="navegacion__links" href="#sobre-mi">Sobre Mi</a></li>
+                        <li class="navegacion__item"><a class="navegacion__links" href="#skills">Skills</a></li>
+                        <li class="navegacion__item"><a class="navegacion__links" href="#hobbies">Hobbies</a></li>
+                        <li class="navegacion__item"><a class="navegacion__links" href="#formacion">Formación</a></li>
+                        <li class="navegacion__item"><a class="navegacion__links" href="#proyectos">Proyectos</a></li>
+                    </ul>
+                </nav>
+
+                <p class="header__contacto">Domestika23@gmail.com</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="datos-personales container">
+            <img class="datos-personales__img" src="assets/img/perfil.png" alt="foto de perfil">
+
+            <div class="datos-personales__container">
+                <div class="datos-personales__informacion">
+                    <h1 class="datos-personales__titulo">Hola, mi nombre es Danny Yael García Torres y construyo
+                        Páginas
+                        Web</h1>
+                    <p class="datos-personales__descripcion">Estoy actualmente formandome en la carrera de Ing. en
+                        Software
+                        y redes, además de estar tomando el
+                        curso de oracle ONE en Alura Latam y haber tomado cursos dentro de la
+                        plantaforma de Udemy acerca de Html, css, sass, javaScript y react.
+                    </p>
+                </div> <!-- datos-personales__informacion-->
+
+                <ul class="forma-contacto">
+                    <li class="forma-contacto__item"><a class="forma-contacto__link" href="">GitHub</a></li>
+                    <li class="forma-contacto__item"><a class="forma-contacto__link" href="">Linkedin</a></li>
+                    <li class="forma-contacto__item"><a class="forma-contacto__link" href="">Instagram</a></li>
+                    <li class="forma-contacto__item"><a class="forma-contacto__link" href="">Curriculum</a></li>
+                </ul>
+            </div>
+        </section> <!-- sobre__educacion -->
+
+        <section class="historia" id="sobre-mi">
+            <div class="container">
+                <h2 class="historia__titulo">Sobre Mi</h2>
+                <p class="historia__informacion">
+                    hola, soy Danny Yael García Torres tengo 19 y vivo en la ciudad de México.
+                    actualmente estoy estudiando en La Universidad Tecnologica de México la carrera de Ing. en Software
+                    y redes, además de esto estoy participando en el curso Oracle One de alura
+                    Latam en el cual me estoy desarrollando en la parte de Front-End.
+                    Aparte e tomador cursos en la plataforma Udemy acerca de html5, css, sass, javaScript, php y react.
+                </p>
+                <div class="historia__firma"></div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2 class="txt-aling titulo">Skills</h2>
+
+            <div class="container">
+                <div class="Skills">
+                    <ul class="skills__lista">
+                        <li class="skill">
+                            <div class="skill__icon html"></div>
+                            <p class="skill__texto">html5</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill__icon js"></div>
+                            <p class="skill__texto">javaScript</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill__icon php"></div>
+                            <p class="skill__texto">Php</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill__icon react"></div>
+                            <p class="skill__texto">React</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill__icon css"></div>
+                            <p class="skill__texto ">Css</p>
+                        </li>
+                        <li class="skill">
+                            <div class="skill__icon sass"></div>
+                            <p class="skill__texto ">Sass</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="hobbies">
+            <h2 class="txt-aling titulo">Hobbies</h2>
+
+            <div class="container">
+                <ul class="hobbie-lista">
+                    <li class="hobbie">
+                        <div class="hobbie__icon guitarra"></div>
+                        <p class="hobbie__texto">Tocar Guitarra</p>
+                    </li>
+                    <li class="hobbie">
+                        <div class="hobbie__icon musica"></div>
+                        <p class="hobbie__texto">Oir Musica</p>
+                    </li>
+                    <li class="hobbie">
+                        <div class="hobbie__icon cocina"></div>
+                        <p class="hobbie__texto">Cocinar</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="formacion">
+            <h2 class="txt-aling titulo">Formación académica</h2>
+
+            <div class="educacion container">
+                <div class="formacion">
+                    <img class='formacion__img alura' src="assets/img/alura-log.webp" alt="imagen alura">
+
+                    <div class="formacion__informacion">
+                        <p class="formacion__titulo">Oracle Next Education</p>
+                        <p class="formacion__descripcion">En Curso</p>
+                    </div>
+
+                </div><!-- formacion-->
+
+                <div class="formacion">
+                    <img class='formacion__img' src="assets/img/cursohtmlycss_sass.webp" alt="curso css">
+
+                    <div class="formacion__informacion">
+                        <p class="formacion__titulo">
+                            Curso html, css y Sass +20proyectos - Con juan valdez de la torre
+                        </p>
+                        <p class="formacion__descripcion">En curso</p>
+                    </div>
+
+                </div><!-- formacion-->
+
+                <div class="formacion">
+                    <img class='formacion__img' src="assets/img/cursoPaginaWeb.webp" alt="curso desarrollo web">
+
+                    <div class="formacion__informacion">
+                        <p class="formacion__titulo">
+                            Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL - Con
+                            juan
+                            valdez de la torre</p>
+                        <p class="formacion__descripcion">En curso</p>
+                    </div>
+
+                </div> <!-- formacion-->
+
+                <div class="formacion">
+                    <img class='formacion__img' src="assets/img/cursoJS.webp" alt="curso javaScript">
+
+                    <div class="formacion__informacion">
+                        <p class="formacion__titulo">
+                            JavaScript Moderno Guía Definitiva Construye +20 Proyectos - Con
+                            juan valdez de la torre
+                        </p>
+                        <p class="formacion__descripcion">En curso</p>
+                    </div>
+
+                </div> <!-- formacion-->
+            </div> <!-- educacion -->
+        </section>
+
+        <section id="proyectos">
+            <h2 class="txt-aling titulo">Experiencia Profesional</h2>
+
+            <div class="proyectos container">
+                <article class="proyecto">
+                    <img class="proyecto__img" src="assets/img/encriptador1.png" alt="proyecto juego del ahorcado">
+
+                    <div class="proyecto__contenido">
+                        <h3 class="proyecto__titulo">Decodificador creado con HTML, Css y Java Script</h3>
+                        <p class="proyecto__descripcion">Challenge Oracle</p>
+
+                        <div class="proyecto__botones">
+                            <a class="proyecto__boton proyecto__boton--repositorio" id="1" href="">Repositorio</a>
+                            <a class="proyecto__boton proyecto__boton--demo" id="2"
+                                href="https://encriptadordetextofree.netlify.app/">Ver Demo</a>
+                        </div>
+                    </div>
+                </article> <!-- proyectos__contenido-->
+
+                <article class="proyecto">
+                    <img class="proyecto__img" src="assets/img/festival.webp" alt="proyecto festival">
+
+                    <div class="proyecto__contenido">
+                        <h3 class="proyecto__titulo">Pagina ventas de concierto hecha con html, Css</h3>
+                        <p class="proyecto__descripcion">Challenge Oracle</p>
+
+                        <div class="proyecto__botones">
+                            <a class="proyecto__boton proyecto__boton--repositorio" id="3" href="">Repositorio</a>
+                            <a class="proyecto__boton proyecto__boton--demo" id="4"
+                                href="https://fascinating-starship-27b442.netlify.app/">Ver Demo</a>
+                        </div>
+                    </div>
+                </article> <!-- proyectos__contenido-->
+
+                <article class="proyecto">
+                    <img class="proyecto__img" src="assets/img/nucleus.webp" alt="proyecto juego del ahorcado">
+
+                    <div class="proyecto__contenido">
+                        <h3 class="proyecto__titulo">Juego creado con HTML y Java Script</h3>
+                        <p class="proyecto__descripcion">Challenge Oracle</p>
+
+
+                        <div class="proyecto__botones">
+                            <a class="proyecto__boton proyecto__boton--repositorio" id="5" href="">Repositorio</a>
+                            <a class="proyecto__boton proyecto__boton--demo" id="6"
+                                href="https://enchanting-cuchufli-c8bb9b.netlify.app/">Ver Demo</a>
+                        </div>
+                    </div>
+                </article> <!-- proyectos__contenido-->
+
+            </div><!-- Proyectos -->
+        </section>
+    </main>
+
+    <section class="contacto container">
+        <div class="contacto__img"></div>
+
+        <form class="formulario">
+            <legend class="formulario__titulo">Contacto</legend>
+            <p class="formulario__descripcion">Puedes contactarme rellenando el siguiente formulario</p>
+
+            <fieldset class="formulario__campos">
+                <div class="campo">
+                    <label class="campo__label" for="nombre">Nombre</label>
+                    <input class="campo__input campo__input--nombre" type="text" id="nombre" placeholder="danny Yael"
+                        name="nombre">
+                </div>
+
+                <div class="campo">
+                    <label class="campo__label" for="email">E-Mail</label>
+                    <input class="campo__input campo__input--email" type="email" id="email" placeholder="pepe@gmail.com"
+                        name="email">
+                </div>
+
+                <div class="campo">
+                    <input class="campo__input campo__input--asunto" type="text" id="asunto" placeholder="Asunto"
+                        name="asunto" required>
+                </div>
+
+                <div class="campo">
+                    <textarea class="campo__textarea" placeholder="Mensaje" name="mensaje" id="mensaje" cols="30"
+                        rows="10" required></textarea>
+                </div>
+            </fieldset>
+
+            <button class="formulario__boton formulario__boton--enabled" type="submit">Enviar formulario</button>
+
+
+
+
+            <div id="spinner" class="container--spinner hidden">
+                <div class="cargando">
+                    <div class="pelotas"></div>
+                    <div class="pelotas"></div>
+                    <div class="pelotas"></div>
+                    <span class="texto-cargando">Cargando...</span>
+                </div>
+            </div>
+
+
+        </form>
+
+    </section>
+
+    <footer>
+        <p class="footer__descripcion txt-aling titulo">Desarrollador Danny Yael García Torres - 2023</p>
+    </footer>
+
+    <!-- js -->
+    <script src="assets/js/botonPoryecto.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+.contacto {
+    display: flex;
+    justify-content: space-between;
+    padding: 7rem 0;
+
+    height: 100%;
+}

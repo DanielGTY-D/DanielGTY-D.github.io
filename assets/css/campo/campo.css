@@ -1,0 +1,11 @@
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+
+    background-color: #fff;
+
+    border-left: 2px solid black;
+
+    padding: 1rem;
+}

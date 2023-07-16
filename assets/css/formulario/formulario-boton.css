@@ -1,0 +1,17 @@
+.formulario__boton {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border: none;
+}
+
+.formulario__boton--disabled {
+    background-color: rgb(125, 125, 170);
+    cursor: initial;
+}
+
+.formulario__boton--enabled {
+    background-color: var(--btnColorPrincipal);
+    cursor: pointer;
+}

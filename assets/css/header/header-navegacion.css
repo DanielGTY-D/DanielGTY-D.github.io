@@ -1,0 +1,5 @@
+.header__navegacion {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}

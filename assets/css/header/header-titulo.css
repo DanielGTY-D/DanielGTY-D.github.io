@@ -1,0 +1,18 @@
+.header__titulo {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+@media (min-width: 768px) {
+    .header__titulo {
+        font-size: 2rem;
+    }
+}
+
+.header__titulo::before {
+    content: '';
+    background: url(../../img/icons/estrellas.svg) no-repeat top .6rem left 1rem / 4rem;
+    width: 5rem;
+    height: 5rem;
+    margin-right: 1rem;
+}

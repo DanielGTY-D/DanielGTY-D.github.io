@@ -1,0 +1,13 @@
+.forma-contacto__link {
+    color: #fff;
+    display: flex;
+    gap: 1rem;
+    flex-direction: row-reverse;
+}
+.forma-contacto__link::before {
+    content: '';
+    background: url(../../img/icons/arrow_back_black_24dp\ 1.svg) no-repeat center top -.7rem/ 3rem;
+    width: 2rem;
+    height: 2rem;
+    display: block;
+}

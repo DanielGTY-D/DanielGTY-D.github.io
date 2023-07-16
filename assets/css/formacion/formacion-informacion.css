@@ -1,0 +1,23 @@
+.formacion__informacion {
+    border: 2px solid var(--btnColorPrincipal);
+    border-radius: 0 0 1rem 1rem;
+    width: 100%;
+    height: 15%;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+    .formacion__informacion {
+        height: 44%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .formacion__informacion {
+        height: 50%;
+    }
+}

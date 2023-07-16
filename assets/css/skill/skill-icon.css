@@ -1,0 +1,24 @@
+.skill__icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+.skill__icon.html {
+    background: url(../../img/icons/html.svg) no-repeat center / 2.6rem;
+}
+
+.skill__icon.js {
+    background: url(../../img/icons/js.svg) no-repeat center / 2.6rem;
+}
+.skill__icon.php {
+    background: url(../../img/icons/php.svg) no-repeat center / 3rem;
+}
+.skill__icon.react {
+    background: url(../../img/icons/react.svg) no-repeat center / 2.6rem;
+}
+.skill__icon.css {
+    background: url(../../img/icons/css.svg) no-repeat center / 2.6rem;
+}
+.skill__icon.sass {
+    background: url(../../img/icons/sass.svg) no-repeat center / 2.6rem;
+}

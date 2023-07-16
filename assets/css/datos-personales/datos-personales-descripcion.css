@@ -1,0 +1,5 @@
+@media (min-width: 768px) {
+    .datos-personales__descripcion {
+        font-size: 2rem;
+    }
+}

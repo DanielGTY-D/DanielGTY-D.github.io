@@ -1,0 +1,29 @@
+.proyecto__boton {
+    padding: 1rem 2rem;
+    margin-bottom: 1rem
+}
+
+.proyecto__boton--repositorio {
+    color: var(--btnColorPrincipal);
+    border: 2px solid var(--btnColorPrincipal);
+    transition: .3s;
+}
+
+/* .proyecto__boton--repositorio:hover {
+    color: #fff;
+    background-color: var(--btnColorPrincipal);
+    border: 2px solid var(--btnColorPrincipal);
+} */
+
+.proyecto__boton--demo {
+    color: #fff;
+    background-color: var(--btnColorPrincipal);
+    border: 2px solid var(--btnColorPrincipal);
+    transition: .3s;
+}
+
+/* .proyecto__boton--demo-blanco {
+    color: var(--btnColorPrincipal);
+    border: 2px solid var(--btnColorPrincipal);
+    background-color: #fff;
+} */

@@ -1,0 +1,10 @@
+.proyecto {
+    margin-bottom: 4rem;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .proyecto {
+        margin: 0;
+    }
+}

@@ -1,0 +1,10 @@
+.header__contacto {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .header__contacto {
+        font-size: 1.8rem;
+    }
+}

@@ -1,0 +1,5 @@
+.campo__textarea {
+    border: none;
+    resize: none;
+    outline: none;
+}
