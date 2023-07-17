@@ -6,7 +6,12 @@
     .datos-personales {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+@media (min-width: 1024px) {
+    .datos-personales {
         flex-direction: row-reverse;
     }
 }
