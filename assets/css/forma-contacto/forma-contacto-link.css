@@ -1,8 +1,12 @@
 .forma-contacto__link {
     color: #fff;
     display: flex;
-    gap: 1rem;
+    gap: 6rem;
     flex-direction: row-reverse;
+    justify-content: space-between;
+
+    font-weight: bold;
+    font-size: 1.8rem;
 }
 .forma-contacto__link::before {
     content: '';

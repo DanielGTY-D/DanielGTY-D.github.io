@@ -1,5 +1,16 @@
 .forma-contacto__item {
     background-color: var(--colorTerciario);
 
-    padding: 1rem;
+    padding: 1rem;;
+}
+
+@media (min-width: 556px) {
+    .forma-contacto__item {
+        width: 25rem;
+    }
+}
+@media (min-width: 768px) {
+    .forma-contacto__item {
+        width: 20rem;
+    }
 }

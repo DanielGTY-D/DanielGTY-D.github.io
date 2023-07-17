@@ -1,18 +1,31 @@
 .forma-contacto {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 3rem;
     padding: 0;
     margin: 0;
+
+}
+
+@media (min-width: 556px) {
+    .forma-contacto {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
 
 @media (min-width: 768px) {
     .forma-contacto {
         width: 93%;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }
 
 @media (min-width: 1024px) {
     .forma-contacto {
         width: 70%;
+        flex-direction: row;
+        flex-wrap: nowrap;
     }
 }
