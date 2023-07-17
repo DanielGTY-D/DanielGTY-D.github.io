@@ -1,7 +1,20 @@
+.datos-personales__container {
+    width: 100%;
+}
+
+@media (min-width: 556px) {
+    .datos-personales__container {
+        width: 100%;
+    }
+}
+
 @media (min-width: 768px) {
     .datos-personales__container {
-        width: 76%;
+        width: 100%;
         margin-right: 3rem;
     }
 }
+
+
+
 
